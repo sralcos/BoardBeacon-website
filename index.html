@@ -6,44 +6,74 @@
   <style>
     body {
       margin: 0;
-      font-family: Arial, sans-serif;
+      font-family: -apple-system, BlinkMacSystemFont, sans-serif;
       background: linear-gradient(180deg, #0B1F3A, #132F5C);
       color: white;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
       text-align: center;
     }
-    .container {
-      max-width: 600px;
+    .hero {
+      padding: 120px 20px;
     }
     h1 {
-      font-size: 3rem;
+      font-size: 3.5rem;
       margin-bottom: 10px;
     }
+    h2 {
+      font-weight: normal;
+      opacity: 0.9;
+    }
     p {
-      font-size: 1.3rem;
+      max-width: 600px;
+      margin: 20px auto;
       opacity: 0.85;
+      line-height: 1.6;
+    }
+    .cta {
+      margin-top: 30px;
+    }
+    input {
+      padding: 12px;
+      width: 250px;
+      border-radius: 6px;
+      border: none;
+      margin-right: 8px;
     }
     button {
-      margin-top: 30px;
-      padding: 12px 24px;
-      font-size: 1rem;
-      border: none;
+      padding: 12px 20px;
       border-radius: 6px;
+      border: none;
       background-color: #1E88E5;
       color: white;
+      font-weight: bold;
       cursor: pointer;
+    }
+    footer {
+      margin-top: 80px;
+      padding: 20px;
+      font-size: 0.9rem;
+      opacity: 0.6;
     }
   </style>
 </head>
 <body>
-  <div class="container">
-    <h1>BoardBeacon</h1>
-    <p>AI-Powered Oral Board Simulation for Anesthesiology</p>
-    <p>Practice out loud. Think under pressure. Pass with confidence.</p>
+
+<div class="hero">
+  <h1>BoardBeacon</h1>
+  <h2>AI-Powered Oral Board Simulation for Anesthesiology</h2>
+  <p>
+    Practice out loud. Think under pressure. Refine your clinical reasoning
+    with structured, realistic mock oral exams.
+  </p>
+
+  <div class="cta">
+    <input type="email" placeholder="Enter your email">
     <button>Join Early Access</button>
   </div>
+</div>
+
+<footer>
+  © 2026 BoardBeacon LLC · Educational Use Only · Not affiliated with the ABA
+</footer>
+
 </body>
 </html>
